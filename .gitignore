@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Build & Electron outputs
+dist/
+out/
+release/
+build/
+*.tsbuildinfo
+
+# Local SQLite databases & runtime data
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+data/
+
+# Secrets & environment files
+.env
+.env.*
+!.env.example
+credentials.env
+*.enc
+*.pem
+*.key
+
+# Logs & OS artifacts
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
